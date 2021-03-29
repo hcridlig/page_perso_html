@@ -1,0 +1,110 @@
+body
+{
+  	margin-left:60px;
+	border-style:solid;
+  	border-color:grey;
+  	border-width:1px;
+  	background-image: url("../IMAGES/Big_Data.jpeg");
+  	background-repeat: repeat;
+  	font-family: 'Oswald', sans-serif;
+  	color: white;
+  	overflow-x: hidden;
+  	background-repeat: repeat;
+}
+
+header
+{
+	margin-bottom: 10em
+}
+
+
+h1
+{
+	background-color: grey;
+	color: white;
+	margin:1em;
+	display: block;
+}
+
+
+nav
+{
+	overflow-x: hidden;
+}
+div a
+{
+	float: left;
+	
+}
+
+.menu a {
+  float: left;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu li
+{
+
+	display:inline; 
+}
+
+a
+{
+	color: white;
+}
+ul
+{
+	list-style-type: none;
+}
+
+
+p, h1
+{
+	margin-left: 60px;
+}
+
+li a
+{
+	text-decoration: none;
+}
+
+
+table {
+  margin: 1em;
+  margin-left: 60px;
+  border-collapse: collapse;
+  color: black;
+  text-align: center;
+
+}
+
+tr, td {
+  text-align: left;
+  padding: 8px;
+  border:1px solid black;
+
+}
+
+tr
+{
+	background-color: #ffb3b3;
+}
+
+tr:nth-child(even)
+{
+	background-color: #ffe6e6
+}
+
+td:first-child
+{
+	font-weight: bold;
+}
